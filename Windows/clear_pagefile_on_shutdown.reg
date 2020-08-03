@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+; Clears/Deletes the pagefile upon shutdown
+; THIS WILL INCREASE SHUTDOWN TIME SIGNIFICANTLY!
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management]
+"ClearPageFileAtShutdown"=dword:00000001
