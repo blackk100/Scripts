@@ -15,6 +15,8 @@ if '%errorlevel%' NEQ '0' (
 
 netsh winsock reset catalog
 netsh int ip reset reset.log
+ipconfig /flushdns
+ipconfig /renew
 
 echo.
 echo. ========================================
