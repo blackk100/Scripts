@@ -1,6 +1,5 @@
 Windows Registry Editor Version 5.00
 
 ; Enable Software USB Write Protection
-
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\StorageDevicePolicies]
-"WriteProtect"=dword:00000000
+"WriteProtect"=dword:00000001
