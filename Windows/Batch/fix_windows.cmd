@@ -44,7 +44,5 @@ echo.
 echo. ========================================
 echo.
 
-echo. Press any key to restart in 30 seconds
-pause >nul
-shutdown /r /d p:4:1 /c "Restart to enable chksdk to run"
+echo. Done
 pause >nul
