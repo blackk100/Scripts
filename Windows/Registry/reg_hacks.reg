@@ -7,12 +7,3 @@ Windows Registry Editor Version 5.00
 ; Verbose Boot Messages
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System]
 "VerboseStatus"=dword:00000001
-
-; Increase MFT Reserved Space by 1 relative unit (accepts values from 1-4)
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem]
-"NtfsMftZoneReservation"=dword:00000002
-
-; Enable Prefetch and Superfetch only for Boot
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management\PrefetchParameters]
-"EnablePrefetcher"=dword:00000002
-"EnableSuperfetch"=dword:00000002

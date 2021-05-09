@@ -1,0 +1,5 @@
+Windows Registry Editor Version 5.00
+
+; Increase MFT Reserved Space by 1 relative unit (accepts values from 1-4)
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem]
+"NtfsMftZoneReservation"=dword:00000002
