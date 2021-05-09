@@ -14,6 +14,7 @@ if '%errorlevel%' NEQ '0' (
 )
 
 echo Also disables Credential Guard and Device Guard.
+echo Only does this for the next reboot. Following reboots will still have Virtualization Based Security enabled.
 echo Press any key to continue, else close this window.
 pause >nul
 
