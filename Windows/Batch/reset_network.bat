@@ -22,7 +22,7 @@ echo.
 echo. ========================================
 echo.
 
-echo. Press any key to restart in 30 seconds
-pause >nul
+echo. Script completed. Press any key to restart in 30 seconds. Press CTRL+C to skip the restart...
+pause > nul
 shutdown /r /d p:4:1 /c "Restart to reset network sockets connections"
-pause >nul
+pause > nul

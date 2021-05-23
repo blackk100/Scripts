@@ -52,18 +52,18 @@ if not errorlevel 1 (
 
 	sfc /scannow
 ) else (
-	echo The DISM check will be skipped due to no internet connection
-	echo It is recommended that you exit, connect to the internet, and rerun this script
-	echo You may also modify this script to point at a specific System Image file to check locally
-	echo You'll have to manually source this image file from some other source
-	echo Press any key to continue anyway
-	pause >nul
+	echo The DISM check will be skipped due to no internet connection.
+	echo It is recommended that you exit, connect to the internet, and rerun this script.
+	echo You may also modify this script to point at a specific System Image file to check locally.
+	echo You'll have to manually source this image file from some other source.
+	echo Press any key to continue...
+	pause > nul
 )
 echo.
 echo. ========================================
 echo.
 
-echo. Press any key to restart in 30 seconds
-pause >nul
+echo. Script completed. Press any key to restart in 30 seconds. Press CTRL+C to skip the restart...
+pause > nul
 shutdown /r /d p:4:1 /c "Restart to enable chksdk to run"
-pause >nul
+pause > nul

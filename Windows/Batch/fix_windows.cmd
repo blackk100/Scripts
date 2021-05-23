@@ -38,11 +38,11 @@ if not errorlevel 1 (
 	echo You may also modify this script to point at a specific System Image file to check locally
 	echo You'll have to manually source this image file from some other source
 	echo Press any key to continue anyway
-	pause >nul
+	pause > nul
 )
 echo.
 echo. ========================================
 echo.
 
-echo. Done
-pause >nul
+echo. Script completed. Press any key to exit...
+pause > nul

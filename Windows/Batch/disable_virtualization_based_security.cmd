@@ -16,7 +16,7 @@ if '%errorlevel%' NEQ '0' (
 echo Also disables Credential Guard and Device Guard.
 echo Only does this for the next reboot. Following reboots will still have Virtualization Based Security enabled.
 echo Press any key to continue, else close this window.
-pause >nul
+pause > nul
 
 mountvol X: /s
 copy %WINDIR%\System32\SecConfig.efi X:\EFI\Microsoft\Boot\SecConfig.efi /Y
@@ -31,4 +31,5 @@ echo.
 echo. ========================================
 echo.
 
-pause >nul
+echo. Script completed. Press any key to exit...
+pause > nul
