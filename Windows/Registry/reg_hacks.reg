@@ -7,7 +7,3 @@ Windows Registry Editor Version 5.00
 ; Verbose Boot Messages
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System]
 "VerboseStatus"=dword:00000001
-
-; Shows "System unattended sleep timeout" under the "Sleep" in Power Plan Settings
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\238C9FA8-0AAD-41ED-83F4-97BE242C8F20\7bc4a2f9-d8fc-4469-b07b-33eb785aaca0]
-"Attributes"=dword:00000002
