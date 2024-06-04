@@ -1,8 +1,8 @@
 @echo off
 
-REM Assumes adb and scrcpy are in the PATH environment variable. Get adb from: https://developer.android.com/studio/releases/platform-tools ; Get scrcpy from: https://github.com/Genymobile/scrcpy
+REM Assumes scrcpy is in the PATH environment variable. Get scrcpy from: https://github.com/Genymobile/scrcpy
 
-scrcpy
+scrcpy --video-codec=h265 --video-encoder='c2.exynos.hevc.encoder' --audio-codec=aac --audio-encoder='OMX.google.aac.encoder'
 
 echo.
 echo Press any key to close...
