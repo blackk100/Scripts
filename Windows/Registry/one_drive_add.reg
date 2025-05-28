@@ -13,7 +13,3 @@ Windows Registry Editor Version 5.00
 ; Add OneDrive to 64-bit Explorer Navigation Pane
 [HKEY_CLASSES_ROOT\Wow6432Node\CLSID\{018D5C66-4533-4307-9B53-224DE2ED1FE6}]
 "System.IsPinnedToNameSpaceTree"=dword:00000001
-
-; Enable Copilot
-[HKCU\Software\Policies\Microsoft\Windows\WindowsCopilot]
-"TurnOffWindowsCopilot"=dword:00000000
