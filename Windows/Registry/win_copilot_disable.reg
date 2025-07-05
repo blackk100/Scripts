@@ -1,5 +1,5 @@
 Windows Registry Editor Version 5.00
 
 ; Remove Copilot
-[HKCU\Software\Policies\Microsoft\Windows\WindowsCopilot]
+[HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\WindowsCopilot]
 "TurnOffWindowsCopilot"=dword:00000001
