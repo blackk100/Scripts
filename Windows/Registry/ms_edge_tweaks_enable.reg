@@ -12,7 +12,7 @@ Windows Registry Editor Version 5.00
 "Edge3PSerpTelemetryEnabled"=dword:00000000
 "EdgeAutofillMlEnabled"=dword:00000000
 "EdgeManagementEnabled"=dword:00000000
-"ExtensionManifestV2Availability"=dword:00000001
+"ExtensionManifestV2Availability"=dword:00000002
 "HttpsUpgradesEnabled"=dword:00000001
 "InAppSupportEnabled"=dword:00000000
 "LocalBrowserDataShareEnabled"=dword:00000000
